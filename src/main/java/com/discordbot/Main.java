@@ -14,7 +14,7 @@ public class Main extends ListenerAdapter {
         builder.setToken(token);
         builder.addEventListener(new Data.Bot());
         builder.buildAsync();
-        new Data.Bot();
+       // new Data.Bot();
     }
 }
 
